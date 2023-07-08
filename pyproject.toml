@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "badger2040"
+version = "0.1.0"
+description = ""
+authors = ["Christopher Doyle <christophercormac@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyserial = "^3.5"
+docopt = "^0.6.2"
+adafruit-ampy = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
